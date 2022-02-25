@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	const [queryClient] = React.useState(() => new QueryClient());
 
 	return (
-		<div className="w-screen">
+		<div className="w-full">
 			<Head>
 				<title>🎂 Oferta tortów - Dorota Pędlowska </title>
 				<meta
