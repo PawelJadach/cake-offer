@@ -1,0 +1,17 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.options": {
+		"overrideConfig": {
+			"parserOptions": {
+				"ecmaVersion": 2017
+			},
+			"env": {
+				"es6": true
+			}
+		}
+	}
+}
